@@ -2,6 +2,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
     <modelVersion>4.0.0</modelVersion>
+    <modules>
+        <module>spring-rest</module>
+    </modules>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -12,9 +15,9 @@
     <groupId>jaworskg</groupId>
     <artifactId>spring</artifactId>
     <version>0.1.0-SNAPSHOT</version>
-    <packaging>jar</packaging>
+    <packaging>pom</packaging>
 
-    <name>spring</name>
+    <name>Spring</name>
     <url>http://localhost:8080</url>
 
     <developers>
@@ -32,6 +35,8 @@
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <!-- Dependency versions -->
+        <spring-boot.version>1.5.6.RELEASE</spring-boot.version>
     </properties>
 
     <scm>
