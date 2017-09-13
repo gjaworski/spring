@@ -2,9 +2,6 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
     <modelVersion>4.0.0</modelVersion>
-    <modules>
-        <module>spring-rest</module>
-    </modules>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -19,6 +16,11 @@
 
     <name>Spring</name>
     <url>http://localhost:8080</url>
+
+    <modules>
+        <module>spring-rest</module>
+        <module>spring-eureka</module>
+    </modules>
 
     <developers>
         <developer>
@@ -45,7 +47,13 @@
 
     <dependencyManagement>
         <dependencies>
-
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>Camden.SR5</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
