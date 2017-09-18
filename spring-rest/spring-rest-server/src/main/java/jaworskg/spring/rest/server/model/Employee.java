@@ -1,4 +1,4 @@
-package jaworskg.spring.rest.model;
+package jaworskg.spring.rest.server.model;
 
 public class Employee {
 

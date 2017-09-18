@@ -1,6 +1,6 @@
-package jaworskg.spring.rest;
+package jaworskg.spring.rest.server;
 
-import jaworskg.spring.rest.model.Employee;
+import jaworskg.spring.rest.server.model.Employee;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

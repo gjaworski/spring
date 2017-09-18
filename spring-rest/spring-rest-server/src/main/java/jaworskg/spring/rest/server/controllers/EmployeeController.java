@@ -1,7 +1,7 @@
-package jaworskg.spring.rest.controllers;
+package jaworskg.spring.rest.server.controllers;
 
-import jaworskg.spring.rest.model.Employee;
-import jaworskg.spring.rest.services.EmployeeService;
+import jaworskg.spring.rest.server.model.Employee;
+import jaworskg.spring.rest.server.services.EmployeeService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.ResponseEntity;

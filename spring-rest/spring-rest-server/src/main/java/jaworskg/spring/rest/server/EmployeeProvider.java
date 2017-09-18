@@ -1,6 +1,6 @@
-package jaworskg.spring.rest;
+package jaworskg.spring.rest.server;
 
-import jaworskg.spring.rest.model.Employee;
+import jaworskg.spring.rest.server.model.Employee;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;

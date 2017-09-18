@@ -13,7 +13,7 @@
 
     <artifactId>spring-rest-server</artifactId>
     <name>Spring REST Server</name>
-    <url>http://localhost:9002</url>
+    <url>http://localhost:9001</url>
 
     <dependencies>
         <dependency>

@@ -1,4 +1,4 @@
-package jaworskg.spring.rest;
+package jaworskg.spring.rest.server;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
