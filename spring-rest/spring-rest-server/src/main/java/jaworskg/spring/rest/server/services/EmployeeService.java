@@ -1,6 +1,6 @@
 package jaworskg.spring.rest.server.services;
 
-import jaworskg.spring.rest.server.EmployeeProvider;
+import jaworskg.spring.rest.server.providers.EmployeeProvider;
 import jaworskg.spring.rest.server.model.Employee;
 import org.springframework.stereotype.Service;
 

@@ -17,6 +17,7 @@
 
     <modules>
         <module>spring-rest-server</module>
+        <module>spring-rest-client</module>
     </modules>
 
 </project>

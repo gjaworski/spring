@@ -1,4 +1,4 @@
-package jaworskg.spring.rest.server;
+package jaworskg.spring.rest.server.providers;
 
 import jaworskg.spring.rest.server.model.Employee;
 import org.springframework.stereotype.Repository;
