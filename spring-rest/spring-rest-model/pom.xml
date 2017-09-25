@@ -6,19 +6,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <artifactId>spring</artifactId>
+        <artifactId>spring-rest</artifactId>
         <groupId>jaworskg</groupId>
         <version>0.1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>spring-rest</artifactId>
-    <name>Spring REST</name>
-    <packaging>pom</packaging>
-
-    <modules>
-        <module>spring-rest-client</module>
-        <module>spring-rest-model</module>
-        <module>spring-rest-server</module>
-    </modules>
+    <artifactId>spring-rest-model</artifactId>
+    <name>Spring REST Model</name>
 
 </project>

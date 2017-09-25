@@ -11,18 +11,14 @@
         <version>0.1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>spring-rest-server</artifactId>
-    <name>Spring REST Server</name>
-    <url>http://localhost:9001</url>
+    <artifactId>spring-rest-client</artifactId>
+    <name>Spring REST Client</name>
+    <url>http://localhost:9002</url>
 
     <dependencies>
         <dependency>
             <artifactId>spring-rest-model</artifactId>
             <groupId>jaworskg</groupId>
-        </dependency>
-        <dependency>
-            <groupId>com.fasterxml.jackson.core</groupId>
-            <artifactId>jackson-databind</artifactId>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>

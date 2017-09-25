@@ -1,16 +1,19 @@
-package jaworskg.spring.rest.server.model;
+package jaworskg.spring.rest.model;
 
 public class Employee {
 
-    private final Integer id;
+    private Integer id;
 
-    private final String firstName;
+    private String firstName;
 
-    private final String lastName;
+    private String lastName;
 
-    private final Integer age;
+    private Integer age;
 
-    private final Address address;
+    private Address address;
+
+    public Employee() {
+    }
 
     public Employee(Integer id, String firstName, String lastName, Integer age, Address address) {
         this.id = id;
@@ -24,20 +27,40 @@ public class Employee {
         return id;
     }
 
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
     public String getFirstName() {
         return firstName;
+    }
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
     }
 
     public String getLastName() {
         return lastName;
     }
 
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
     public Integer getAge() {
         return age;
     }
 
+    public void setAge(Integer age) {
+        this.age = age;
+    }
+
     public Address getAddress() {
         return address;
+    }
+
+    public void setAddress(Address address) {
+        this.address = address;
     }
 
     @Override

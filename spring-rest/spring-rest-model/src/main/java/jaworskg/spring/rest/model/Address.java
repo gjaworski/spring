@@ -1,14 +1,17 @@
-package jaworskg.spring.rest.server.model;
+package jaworskg.spring.rest.model;
 
 public class Address {
 
-    private final String city;
+    private String city;
 
-    private final String street;
+    private String street;
 
-    private final Integer number;
+    private Integer number;
 
-    private final String zipCode;
+    private String zipCode;
+
+    public Address() {
+    }
 
     public Address(String city, String street, Integer number, String zipCode) {
         this.city = city;
@@ -21,16 +24,32 @@ public class Address {
         return city;
     }
 
+    public void setCity(String city) {
+        this.city = city;
+    }
+
     public String getStreet() {
         return street;
+    }
+
+    public void setStreet(String street) {
+        this.street = street;
     }
 
     public Integer getNumber() {
         return number;
     }
 
+    public void setNumber(Integer number) {
+        this.number = number;
+    }
+
     public String getZipCode() {
         return zipCode;
+    }
+
+    public void setZipCode(String zipCode) {
+        this.zipCode = zipCode;
     }
 
     @Override

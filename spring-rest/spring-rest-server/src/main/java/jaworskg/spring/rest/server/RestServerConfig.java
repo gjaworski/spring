@@ -1,7 +1,7 @@
 package jaworskg.spring.rest.server;
 
-import jaworskg.spring.rest.server.model.Address;
-import jaworskg.spring.rest.server.model.Employee;
+import jaworskg.spring.rest.model.Address;
+import jaworskg.spring.rest.model.Employee;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
@@ -9,7 +9,7 @@ import java.util.Arrays;
 import java.util.List;
 
 @Configuration
-public class Config {
+public class RestServerConfig {
 
     @Bean
     public List<Employee> getEmployees() {
