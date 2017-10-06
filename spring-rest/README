@@ -1,0 +1,8 @@
+1. Go to spring-rest-server
+2. Run command:
+    mvn spring-boot:run
+3. Rest server is available on http://localhost:9001
+4. Go to spring-rest-client
+5. Run command:
+    mvn spring-boot:run
+6. Check client and server logs
