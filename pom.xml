@@ -21,6 +21,7 @@
         <module>spring-rest</module>
         <module>spring-eureka</module>
         <module>spring-schedule</module>
+        <module>spring-mvc</module>
     </modules>
 
     <developers>

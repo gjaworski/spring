@@ -1,0 +1,6 @@
+1. Go to spring-mvc
+2. Run command:
+    mvn spring-boot:run
+3. Open browser and check following requests:
+    http://localhost:9001/greeting
+    http://localhost:9001/greeting?name=Grzegorz
