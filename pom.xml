@@ -13,15 +13,14 @@
     <artifactId>spring</artifactId>
     <version>0.1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
-
     <name>Spring</name>
-    <url>http://localhost:8080</url>
 
     <modules>
-        <module>spring-rest</module>
         <module>spring-eureka</module>
-        <module>spring-schedule</module>
         <module>spring-mvc</module>
+        <module>spring-rest</module>
+        <module>spring-schedule</module>
+        <module>spring-microservices</module>
     </modules>
 
     <developers>

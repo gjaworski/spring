@@ -1,0 +1,9 @@
+1. Go to spring-microservices-eureka-service run command:
+    mvn spring-boot:run
+2. Eureka server is available on http://localhost:8761
+3. Go to spring-microservices-forex-service and run two instances on different ports (9001 and 9002) using intellij
+    http://localhost:9001/currency-exchange/from/EUR/to/INR
+    http://localhost:9002/currency-exchange/from/EUR/to/INR
+4. Go to spring-microservices-converter-service and run command
+    mvn spring-boot:run
+    http://localhost:9005/currency-converter-feign/from/EUR/to/INR/quantity/1000
