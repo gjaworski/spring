@@ -13,7 +13,6 @@
 
     <artifactId>spring-mvc</artifactId>
     <name>Spring MVC</name>
-    <url>http://localhost:9001</url>
 
     <dependencies>
         <dependency>

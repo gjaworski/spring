@@ -12,9 +12,7 @@
     </parent>
 
     <artifactId>spring-schedule</artifactId>
-
     <name>Spring Schedule</name>
-    <url>http://localhost:9003</url>
 
     <dependencies>
         <dependency>

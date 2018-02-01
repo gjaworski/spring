@@ -13,7 +13,6 @@
 
     <artifactId>spring-eureka-service</artifactId>
     <name>Spring Eureka Service</name>
-    <url>http://localhost:9002</url>
 
     <dependencies>
         <dependency>
