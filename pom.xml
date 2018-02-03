@@ -21,6 +21,8 @@
         <module>spring-rest</module>
         <module>spring-schedule</module>
         <module>spring-microservices</module>
+        <module>spring-websocket</module>
+        <module>spring-jms</module>
     </modules>
 
     <developers>
