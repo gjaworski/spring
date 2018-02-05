@@ -12,6 +12,7 @@
     </parent>
 
     <artifactId>spring-websocket</artifactId>
+    <name>Spring Websocket</name>
 
     <properties>
         <sockjs-client.version>1.0.2</sockjs-client.version>
