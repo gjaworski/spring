@@ -17,12 +17,13 @@
 
     <modules>
         <module>spring-eureka</module>
+        <module>spring-jdbc</module>
+        <module>spring-jms</module>
+        <module>spring-microservices</module>
         <module>spring-mvc</module>
         <module>spring-rest</module>
         <module>spring-schedule</module>
-        <module>spring-microservices</module>
         <module>spring-websocket</module>
-        <module>spring-jms</module>
     </modules>
 
     <developers>
